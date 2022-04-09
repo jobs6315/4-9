@@ -1,0 +1,53 @@
+#include<stdio.h>
+int main()
+{
+    int a=0;
+    int b=0;
+    int c=0;
+    int d=0;
+    scanf("%d %d",&a,&b);
+    c=a/b;
+    d=a%b;
+    printf("%d %d",c,d);
+    return 0;
+}
+#include<stdio.h>
+int main()
+{
+    char strings[]={73,32,99,97,110,32,100,111,32,105,116,33};
+    printf("%s\n",strings);
+    return 0;
+}
+#include<stdio.h>
+int main()
+{
+    int year=0;
+    int month=0;
+    int day=0;
+    scanf("%4d%2d%2d",&year,&month,&day);
+    printf("year=%d\n",year);
+    printf("month=%02d\n",month);
+    printf("date=%02d\n",day);
+    return 0;
+}
+#include <stdio.h>
+
+
+int main()
+{
+  int id=0;
+  float c=0.0;
+  float math=0.0;
+  float english=0.0;
+  scanf("%d;%f,%f,%f",&id,&c,&math,&english);
+  printf("The each subject score of No. %d is %.2f, %.2f, %.2f.",id,c,math,english);
+  return 0;
+}
+#include<stdio.h>
+int main()
+{
+    int ret=printf("Hello world!");
+    printf("\n");
+    printf("%d\n",ret);
+    return 0;
+}
